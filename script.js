@@ -2,7 +2,6 @@ const input = document.getElementById("inputnumber");
 const displayValue = document.querySelector(".numberoddoreven");
 numValue = "null";
 
-
 input.addEventListener("input", (e) => {
 if (input.value % 2 == 1) {
     numValue = "0dd"
