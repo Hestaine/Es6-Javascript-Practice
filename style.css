@@ -1,0 +1,46 @@
+/* default */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+body{
+    background-image: linear-gradient(darkblue, blue, lightblue, blue, darkblue);
+    background-repeat: no-repeat;
+    height: 63vh;
+}
+/* content style */
+.findout{
+    display: flex;
+    flex-direction: column;
+    margin-top:  15rem;
+    align-items: center;
+    gap: 3rem;
+    color: lightblue;
+}
+.info h1{
+    text-shadow: 2px 2px 2px blue;
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 200px;
+}
+.numberoddoreven h2{
+    text-shadow: 2px 2px 2px blue;
+    font-size: 2.4rem;
+}
+label{
+    text-shadow: 2px 2px 2px blue;
+    font-size: 1.8rem;
+    font-weight: 100px;
+}
+label input{
+    outline: 0;
+    border: 1px lightblue;
+    padding: 0.4rem;
+    color: rgb(80, 80, 209);
+    font-weight: 500px;
+    background-color: lightblue;
+}
+label input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
