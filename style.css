@@ -41,6 +41,14 @@ label input{
     font-weight: 500px;
     background-color: lightblue;
 }
+.red{
+    text-shadow: 2px 2px 2px red;
+    color: rgb(216, 102, 102);
+}
+.green{
+    text-shadow: 2px 2px 2px green;
+    color: rgb(145, 216, 145);
+}
 label input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
     -webkit-appearance: none;
 }
