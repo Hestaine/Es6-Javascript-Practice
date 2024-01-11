@@ -44,3 +44,12 @@ label input{
 label input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
     -webkit-appearance: none;
 }
+@media screen and (max-width: 599.1px){
+    body{
+        width: 100%;
+    }
+    .findout{
+        width: 98%;
+        text-align: center;
+    }
+}
